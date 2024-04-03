@@ -29,7 +29,7 @@ function createWindow() {
     height: size.height / 3,
   });
 
-  win.loadURL('https://www.google.com');
+  win.loadURL('https://chat.openai.com/');
 
   // Emitted when the window is closed.
   win.on('closed', (e) => {
